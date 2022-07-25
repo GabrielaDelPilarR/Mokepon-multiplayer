@@ -1,0 +1,21 @@
+.second-view{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.botones-ataque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.ataque {
+    background-color: #EAEA7F;
+    border: 3px solid #EAEA7F;
+    color: #F24A72;
+    font-weight: bold;
+}

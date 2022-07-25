@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@500&display=swap');
+@import './css/segunda-vista.css';
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #333C83;
     margin: 0;
     height: 100%;
 }
 
-.first-view {
+.first-view{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #333C83;
-    padding: 0.4rem;
     gap: 1.3rem;
     height: 100vh;
 }
@@ -20,7 +20,7 @@ body {
 h1 {
     font-family: 'Fredoka One';
     font-size: 40px;
-   
+    text-align: center;
     color: #FDAF75;
 }
 
@@ -51,12 +51,19 @@ h2 {
     color: #F24A72;
     font-weight: bold;
 }
+
+
+
+input:checked  label {
+    color: red;
+}
   
-input {
+  
+/*input {
     display: none;
 }
-
-#boton-mascota {
+*/
+button {
     font-family: 'Poppins';
     font-size: 1rem;
     width: 10rem;
@@ -67,6 +74,6 @@ input {
     color: #FFFFFF;
 }
 
-.button:active{
+button:active{
     transform: scale(.9);
 }
