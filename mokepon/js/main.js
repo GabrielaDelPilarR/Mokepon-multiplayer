@@ -152,4 +152,5 @@ function crearMensajeFinal(resultadoFinal) {
 function reiniciarJuego(){
     location.reload()
 }
+
 window.addEventListener('load', iniciarJuego)
